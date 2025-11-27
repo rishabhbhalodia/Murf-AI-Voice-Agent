@@ -27,6 +27,6 @@
         "id": "arrays",
         "title": "Arrays and Lists",
         "summary": "Arrays (or lists in Python) are collections that store multiple values in a single variable. Instead of creating separate variables for each item, you can group related items together. For example, instead of having variables for student1, student2, student3, you can have one 'students' list containing all names. You can access individual items using their position (index) in the list, starting from 0.",
-        "sample_question": "What is an array, and how do you access individual items in it?"
+        "sample_question": "What is an array or list, and how do you access individual items in it?"
     }
 ]

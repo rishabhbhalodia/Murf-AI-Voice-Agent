@@ -1,0 +1,19 @@
+[
+  {
+    "customer_id": "CUST_9988",
+    "name": "Rishabh Bhalodia",
+    "phone": "+15550199",
+    "security_question": "What is the name of your first pet?",
+    "security_answer": "Dog",
+    "card_last4": "8842",
+    "transaction": {
+      "merchant": "Apple Store",
+      "amount": "$1,299.00",
+      "location": "Chor bazar, Delhi",
+      "timestamp": "Yesterday at 4:30 PM",
+      "device": "Unknown iPhone 15"
+    },
+    "status": "confirmed_fraud",
+    "notes": "Suspicious login detected prior to purchase. | User provided incorrect security answer for pet's name. Call ended due to verification failure. | Rishabh Bhalodia confirmed that the Apple Store transaction for $1,299.00 was unauthorized. | User confirmed authorization of $1299.00 Apple Store charge. | User confirmed the Apple Store transaction of $1,299.00 in Chor bazar, Delhi on their card ending in 8842 was unauthorized. Marked as fraud. | User confirmed authorization of the Apple Store charge. | User provided incorrect security answer during verification. Call ended. | User confirmed they did not authorize the $1299.00 Apple Store transaction. Case marked as confirmed fraud. | Customer confirmed the Apple Store transaction for $1,299.00 on their card ending in 8842 as unauthorized. | User provided incorrect security answer during verification (gave \"K\", expected \"dog\"). Call ended without discussing transaction details. | User failed security verification. Provided \"K\" as pet name, expected \"Dog\". Call ended. | User provided incorrect pet name \"Doug\". Call ended due to failed verification. | User provided incorrect security answer (\"Cat\") for pet's name. Call ended. | User failed to provide the correct security answer (first pet name). Call terminated due to unverified identity. | User did not provide correct security answer to verify identity. | Verification failed: User provided incorrect pet name. | User provided incorrect security answer during verification. Call ended. | User provided incorrect security answer for pet name. Call ended. | Rishabh Bhalodia confirmed authorization of the $1,299.00 Apple Store charge. | User provided incorrect pet name for verification. Call ended without discussing transaction. | User failed security verification (provided \"Doug\", expected \"Dog\"). Call ended. | User failed security verification: provided \"Doug.dog\" when expected \"Dog\". | User failed to provide correct security answer for pet name. | User failed to provide correct security answer for verification. Call ended. | User declined to answer security question. | Rishabh Bhalodia confirmed that the $1,299.00 Apple Store transaction in Chor Bazar, Delhi, yesterday at 4:30 PM, was unauthorized."
+  }
+]

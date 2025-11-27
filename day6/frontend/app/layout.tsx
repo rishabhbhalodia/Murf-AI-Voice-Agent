@@ -1,14 +1,14 @@
-import { Public_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
 import { headers } from 'next/headers';
 import { ApplyThemeScript, ThemeToggle } from '@/components/app/theme-toggle';
 import { cn, getAppConfig, getStyles } from '@/lib/utils';
 import '@/styles/globals.css';
 
-const publicSans = Public_Sans({
+// Temporarily use system fonts instead of Google Fonts due to Turbopack issue
+const publicSans = {
   variable: '--font-public-sans',
-  subsets: ['latin'],
-});
+  className: '',
+};
 
 const commitMono = localFont({
   display: 'swap',
@@ -52,10 +52,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       lang="en"
       suppressHydrationWarning
       className={cn(
-        publicSans.variable,
         commitMono.variable,
         'scroll-smooth font-sans antialiased'
       )}
+      style={{ fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}
     >
       <head>
         {styles && <style>{styles}</style>}

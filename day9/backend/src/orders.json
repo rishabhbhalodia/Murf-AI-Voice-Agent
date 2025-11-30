@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ORD-1764497176",
+    "created_at": "2025-11-30T15:36:16.017760",
+    "status": "CONFIRMED",
+    "items": [
+      {
+        "id": "prod_mug_dev",
+        "name": "Developer Coffee Mug",
+        "qty": 1,
+        "price": 350,
+        "total": 350,
+        "currency": "INR"
+      },
+      {
+        "id": "prod_headphones",
+        "name": "Noise Cancelling Headphones",
+        "qty": 1,
+        "price": 4500,
+        "total": 4500,
+        "currency": "INR"
+      },
+      {
+        "id": "prod_backpack",
+        "name": "Tech Commuter Backpack",
+        "qty": 1,
+        "price": 1800,
+        "total": 1800,
+        "currency": "INR"
+      }
+    ],
+    "total_amount": 6650,
+    "currency": "INR"
+  }
+]
